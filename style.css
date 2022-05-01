@@ -1,0 +1,100 @@
+/* GOOGLE FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+body{
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+    background-color: #5463FF;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: #090910;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 2px solid #F7F5F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+}
+
+.title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+.character_amount_container{
+    display: flex;
+    align-items: center;
+
+}
+
+.number-input{
+    width: 2.2rem;
+
+}
+
+.password_display{
+background-color: #F7F5F2;
+color: #000;
+padding: 2rem;
+border: 2px solid #5463FF;
+height: 2rem;
+width: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+word-break: break-all;
+border-radius: 0.5rem;
+
+}
+
+.btn{
+    text-transform: capitalize;
+    grid-column: span 2;
+    background-color: transparent;
+    border: 2px solid #fafafa;
+    color: #fafafa;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+
+    background-color: #5463FF;
+}
